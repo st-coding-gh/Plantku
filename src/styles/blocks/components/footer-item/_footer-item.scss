@@ -1,0 +1,47 @@
+.footer-item_col3 {
+  grid-column: span 3;
+}
+
+.footer-item_col2 {
+  grid-column: span 2;
+}
+
+.footer-item__company {
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #156963;
+}
+
+.footer__heading {
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.footer__text {
+  font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4F4F4F; 
+}
+
+//positioning
+
+.footer-item__company {
+  margin-bottom: 32px;
+}
+
+.footer-item_col2 .footer__heading {
+  margin-bottom: 20px;
+}
+
+.footer-item_col2 .footer__text {
+  margin-bottom: 14px;
+}

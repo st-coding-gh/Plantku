@@ -1,0 +1,35 @@
+@use './components/footer-item/footer-item';
+
+.footer {
+  border-top: 1px solid #1569634d;
+}
+
+.form {
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 14px;
+}
+
+.form input {
+  display: block;
+  margin-bottom: 14px;
+}
+
+//posiioning
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 32px;
+}
+
+.footer .wrapper .footer-item:nth-child(1) {
+  grid-column: 2/ span 3;
+}
+

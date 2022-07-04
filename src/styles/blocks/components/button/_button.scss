@@ -1,0 +1,73 @@
+.button {
+  border: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  width: 111px;
+  height: 36px;
+  background-color: #156963;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #11534f;
+}
+
+.button_light {
+  background-color: #FFFFFF;
+  color: #156963;
+}
+
+.button_light:active {
+  background-color: #11534f30;
+}
+
+.button_hero  {
+  width: 50%;
+  min-height: 162px;
+  font-family: 'Montserrat';
+  padding: 0;
+}
+
+.button_hero__name {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.button_hero__arrow {
+  padding: 15px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  opacity: 0.5;
+  display: flex;
+  align-items: centerh;
+}
+
+.button_hero__arrow_previous {
+  line-height: 29px;
+  color: #333333;
+}
+
+.button_featured {
+  height: 30px;
+  width: 145px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  border: 1px solid #E0E0E0;
+  background-color: #FFFFFF;
+  padding: 6px 16px;
+  cursor: pointer;
+}

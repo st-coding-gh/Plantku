@@ -1,0 +1,49 @@
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+  position: fixed;
+  top: 10%;
+  left: 25vw;
+  width: 50vw; 
+  height: 60%;
+}
+
+.popup__close {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  display: flex;
+  align-items: center;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  background-color: unset;
+  padding-right: 35px;
+  background-image: url('/src/images/cancel_circle.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.popup__text {
+  height: 40%;
+  width: 50%;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 83px;
+  color: #156963;
+}
+
+.hidden {
+  display: none;
+}

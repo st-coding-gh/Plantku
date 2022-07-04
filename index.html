@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plantku</title>
+  <link rel="icon" href="./src/images/logo.png">
+  <link rel="stylesheet" href="main.css?v1.1">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="wrapper wrapper_header">
+      <div class="logo">
+        <img src="./src/images/logo.png" alt="logo">
+      </div>
+      <div class="header__button-group">
+        <button id="search" class="button button_search button_light">
+          <img src="./src/images/search-icon.png" alt="search icon">
+        </button>
+        <button id="cart" class="button button_cart button_light">
+          <img src="./src/images/shopping-cart.png" alt="cart icon">
+        </button>
+        <button id="sign-up" class="button button_light">Sign Up</button>
+        <button id="sign-in" class="button">Sign In</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="test"></div>
+
+  <main>
+    <section class="hero">
+      <div class="wrapper wrapper_hero grid_hero">
+        <div class="hero__image">
+        <img src="./src/images/hero.jpg" alt="hands and a plant">
+        <img class="hero-img_hidden" src="./src/images/hero-2.jpg" alt="hand in watches and a plant">
+        <img class="hero-img_hidden" src="./src/images/hero-3.jpg" alt="hands with black nail and a plant">
+        </div>
+        <div class="hero__content">
+          <h1 class="hero__title">Kembang Flower&nbsp;Mantap</h1>
+          <p class="hero__text">Lorem Ipsum is&nbsp;simply dummy text of&nbsp;the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s,</p>
+          <div class="button-group_hero">
+            <button id="button_previous" class="button button_hero button_previous button_light">
+              <p class="button_hero__arrow button_hero__arrow_previous"><img src="./src/images/arrow-left.png" alt="arrow left"> Previous</p>
+              <p class="button_hero__name">Kaktus Plant</p>
+            </button>
+            <button id="button_next" class="button button_hero button_next">
+              <p class="button_hero__arrow button_hero__arrow_next" >Next<img src="./src/images/arrow-right.png" alt="arrow right"> </p>
+              <p class="button_hero__name">Rahasia Plant</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="wrapper">
+        <ul class="grid">
+          <li class="services-item">
+            <h3 class="services-item__title"><img src="./src/images/fast.png" alt="icon of a truck">Fast <br> Delivery</h3>
+            <p class="services-item__text">Lorem Ipsum is&nbsp;simply dummy text of&nbsp;the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard </p>
+          </li>
+          <li class="services-item">
+            <h3 class="services-item__title"><img src="./src/images/headphones.png" alt="icon of a truck">Great Customer Service</h3>
+            <p class="services-item__text">Lorem Ipsum is&nbsp;simply dummy text of&nbsp;the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard </p>
+          </li>
+          <li class="services-item">
+            <h3 class="services-item__title"><img src="./src/images/plant.png" alt="icon of a truck">Original <br> Plants</h3>
+            <p class="services-item__text">Lorem Ipsum is&nbsp;simply dummy text of&nbsp;the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard </p>
+          </li>
+          <li class="services-item">
+            <h3 class="services-item__title"><img src="./src/images/dollar-symbol.png" alt="icon of a truck">Affordable <br> Price</h3>
+            <p class="services-item__text">Lorem Ipsum is&nbsp;simply dummy text of&nbsp;the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="featured">
+      <div class="wrapper">
+
+        <div class="featured__header wrapper_header">
+          <h3 class="featured__title">Featured Plants</h3>
+
+          <button id="featured-sort" class="button_featured">
+            <span class="featured__selected-order">Cheaper First</span>
+            <img src="./src/images/chevron-down.svg" alt="triangle down">
+          </button>
+
+          <div class="featured__menu-frame">
+            <div id="featured__menu" class="featured__menu">
+              <span class="featured__menu-item">Cheaper First</span>
+              <span class="featured__menu-item">Recommended</span>
+              <span class="featured__menu-item">Popular First</span>
+            </div>
+          </div>
+
+        </div>
+
+        <ul class="grid_featured">
+          <li class="featured-item">
+            <img src="./src/images/features-1.png" alt="kaktus-1">
+            <p class="featured-item__name">Kaktus <br> Plants</p>
+            <p class="featured-item__price">IDR</p>
+            <p class="featured-item__price">85.000</p>
+          </li>
+          <li class="featured-item">
+            <img src="./src/images/featured-2.png" alt="kaktus-2">
+            <p class="featured-item__name">Landak <br> Plants</p>
+            <p class="featured-item__price">IDR</p>
+            <p class="featured-item__price">105.000</p>
+          </li>
+          <li class="featured-item">
+            <img src="./src/images/featured-3.png" alt="kaktus-3">
+            <p class="featured-item__name">Kecubung <br> Plants</p>
+            <p class="featured-item__price">IDR</p>
+            <p class="featured-item__price">85.000</p>
+          </li>
+          <li class="featured-item">
+            <img src="./src/images/featured-4.png" alt="kaktus-4">
+            <p class="featured-item__name">Kecubung <br> Plants</p>
+            <p class="featured-item__price">IDR</p>
+            <p class="featured-item__price">85.000</p>
+          </li>
+          <li class="featured-item">
+            <img src="./src/images/featured-5.png" alt="kaktus-5">
+            <p class="featured-item__name">Kecubung <br> Plants</p>
+            <p class="featured-item__price">IDR</p>
+            <p class="featured-item__price">85.000</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="wrapper grid">
+        <div class="about__left">
+          <h2 class="about__header">Buy more plants, it&nbsp;helps you to&nbsp;be&nbsp;relaxed</h2>
+          <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida aliquam. Pellentesque et&nbsp;lobortis nisl. Sed et&nbsp;mauris justo. Nulla eu&nbsp;enim non mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus dignissim.</p>
+          <img src="./src/images/about-left.png" alt="some plants">
+        </div>
+        <div class="about__right">
+          <img src="./src/images/about-right.png" alt="more plants">
+        </div>
+      </div>
+    </section>
+
+    <section class="shop">
+      <div class="wrapper grid wrapper_shop">
+        <div class="shop__heading">
+          <h2 class="shop__text">Get your favourites plant on&nbsp;our shop now</h2>
+          <a href="#" target="_blank">
+          <button class="button">Visit Shop</button>
+          </a>
+        </div>
+        <div class="shop__picture">
+          <img src="/src/images/visit-shop.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper grid">
+      <div class="footer-item footer-item_col3">
+        <h4 class="footer-item__company">plantku</h4>
+        <h4 class="footer__heading">Plantku House</h4>
+        <p class="footer__text">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55282</p>
+      </div>
+      <div class="footer-item footer-item_col2">
+        <h4 class="footer__heading">Perusahaan</h4>
+        <p class="footer__text">Tentang Kami</p>
+        <p class="footer__text">Hubungi Kami</p>
+      </div>
+      <div class="footer-item footer-item_col2">
+        <h4 class="footer__heading">Produk</h4>
+        <p class="footer__text">Tanaman</p>
+        <p class="footer__text">Tanaman Lain</p>
+      </div>
+      <form class="footer-item_col3 form">
+        <label for="email">Berlangganan Email Kami</label>
+        <input type="email" id="email" placeholder="Masukan Alamat Email" size="30" required>
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </div>
+  </footer>
+
+  <section>
+    <div id="popupSearch" class="wrapper popup popup-search hidden">
+      <button class="popup__close">Close</button>  
+      <div class="popup__text">Search</div>
+    </div>
+    <div id="popupCart" class="wrapper popup  popup-shopping-cart hidden">
+      <button class="popup__close">Close</button>  
+      <div class="popup__text">Shopping Cart</div>
+    </div>
+    <div id="popupSignUp" class="wrapper popup popup-sign-up hidden">
+      <button class="popup__close">Close</button>  
+      <div class="popup__text">Sign Up</div>
+    </div>
+    <div id="popupSignIn" class="wrapper popup popup-sign-in hidden">
+      <button class="popup__close">Close</button>  
+      <div class="popup__text">Sign In</div>
+    </div>
+  </section>
+
+ </body>
+</html>

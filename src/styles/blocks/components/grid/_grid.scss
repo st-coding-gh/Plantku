@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(10px, 1fr));
+  gap: 20px;
+}
+
+.grid_hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 780px;
+  gap: 20px;
+}
+
+.grid_featured {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(10px, 1fr));
+  gap: 20px;
+}

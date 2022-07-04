@@ -1,0 +1,43 @@
+.about {
+  padding-top: 21px;
+}
+
+.about__left {
+  grid-column: 1 / 8;
+
+}
+
+.about__right {
+  grid-column: 8 / 13;
+}
+
+//font
+
+.about__header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  color: #2C1500;
+  max-width: 522px;
+}
+
+.about__text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #2C1500;
+  max-width: 506.69px;
+}
+
+//position
+
+.about__left {
+  padding-top: 9px;
+}
+
+.about__header {
+  margin-bottom: 16px;
+}
+
+.about__text {
+  margin-bottom: 27px;
+}

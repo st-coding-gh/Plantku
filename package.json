@@ -1,0 +1,26 @@
+{
+  "name": "layout-3-temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npx sass src/styles/main.scss main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st-coding-gh/Plantku.git"
+  },
+  "author": "S Tikhonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st-coding-gh/Plantku/issues"
+  },
+  "homepage": "https://github.com/st-coding-gh/Plantku#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+  }
+}

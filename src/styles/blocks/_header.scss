@@ -1,0 +1,13 @@
+@use './components/wrapper/wrapper';
+@use './components/button/button';
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+}
+
+.header__button-group {
+  display: flex;
+  flex-direction: row;
+}

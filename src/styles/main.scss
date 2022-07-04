@@ -1,0 +1,14 @@
+@use '../../node_modules/normalize.css/normalize.css';
+@use './libraries/normalize-custom';
+
+@use './fonts/fonts';
+
+@use './blocks/header';
+@use './blocks/hero';
+@use './blocks/services';
+@use './blocks/featured';
+@use './blocks/about';
+@use './blocks/shop';
+@use './blocks/footer';
+@use './blocks/popup-area';
+  
